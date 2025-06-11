@@ -43,22 +43,22 @@ My_App is an ASP.NET Core MVC web application for managing a book selling websit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/My_App.git
+   git clone https://github.com/Mahmudulmadu/Ecomerce_MVC.git
    cd My_App
-Configure the connection string in appsettings.json:
+2. Configure the connection string in appsettings.json:
 
 
 "ConnectionStrings": {
     "DefaultConnection": "Server=YOUR_SERVER;Database=MyAppDb;Trusted_Connection=True;MultipleActiveResultSets=true"
 }
-Apply migrations and seed the database:
+3. Apply migrations and seed the database:
 
 
 dotnet ef database update
-Run the application:
+4. Run the application:
 
 
-Open your browser and navigate to https://localhost:code
+5. Open your browser and navigate to https://localhost:code
 
 Register a new user or login as Admin (if seeded)
 
