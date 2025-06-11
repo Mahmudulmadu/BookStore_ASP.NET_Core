@@ -47,45 +47,38 @@ My_App is an ASP.NET Core MVC web application for managing a book selling websit
    ```bash
    git clone https://github.com/Mahmudulmadu/Ecomerce_MVC.git
    cd My_App
-Configure the connection string in appsettings.json:
+2. Configure the connection string in appsettings.json:
 
-json
-Copy
-Edit
+
 "ConnectionStrings": {
     "DefaultConnection": "Server=YOUR_SERVER;Database=MyAppDb;Trusted_Connection=True;MultipleActiveResultSets=true"
 }
-Apply migrations and seed the database:
 
-bash
-Copy
-Edit
-dotnet ef database update
-Run the application and open your browser:
 
-arduino
-Copy
-Edit
-https://localhost:<your-port>
-Register a new user or login as Admin (if seeded).
+3. Apply migrations and seed the database:
 
-Usage
-Navigate to Categories to create, edit, or delete categories.
 
-Navigate to Products to manage book products, upload images, and assign categories.
+-dotnet ef database update
 
-Admin users have full access to all features.
 
-Contribution
-Feel free to fork the repository and submit pull requests for improvements or bug fixes.
+4. Run the application and open your browser:
 
-License
-This project is licensed under the MIT License.
+
+-https://localhost:<your-port>
+
+5. Register a new user or login as Admin (if seeded).
+
+### Usage
+-Navigate to Categories to create, edit, or delete categories.
+-Navigate to Products to manage book products, upload images, and assign categories.
+-Admin users have full access to all features.
+
+### Contribution
+-Feel free to fork the repository and submit pull requests for improvements or bug fixes.
+
+### License
+-This project is licensed under the MIT License.
+
 
 Happy coding! 🚀
 
-vbnet
-Copy
-Edit
-
-Just replace `<your-port>` with the actual port number your app uses locally. Let me know if you 
