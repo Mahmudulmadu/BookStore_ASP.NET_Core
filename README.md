@@ -45,7 +45,7 @@ My_App is an ASP.NET Core MVC web application for managing a book selling websit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Mahmudulmadu/Ecomerce_MVC.git
+   git clone https://github.com/Mahmudulmadu/BookStore_ASP.NET_Core.git
    cd My_App
 2. Configure the connection string in appsettings.json:
 
